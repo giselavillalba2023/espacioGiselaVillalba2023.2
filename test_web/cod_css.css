@@ -1,0 +1,76 @@
+body {
+    /*Desde el archivo css se le da el fondo de pantalla*/
+    background-color: aquamarine;
+    /*Cambiar la letra o fuente*/
+    font-family:cursive;
+
+    
+
+}
+
+/*Centrar titulos*/
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
+/*Desde el archivo css se le da color 
+y tamaño al parrafo*/
+p{
+   color: brown; 
+   font-size: 24px;
+}
+
+h2{
+    color:rgb(226, 153, 43)
+}
+/*Guarda solo lo que esta en div y
+ el div es etiqueta que define las divisiones*/
+div h3{
+    color: darkolivegreen;
+}
+
+#a {
+
+    font-size: 1.5em; /*Tamaño de la fuente en las letras*/
+    font-weight: bold; /*Aumenta el peso de la o las letras*/
+
+}
+
+.d {
+    font-size: 2.5em; /*Tamaño de la fuente en las letras*/
+    font-style: italic;
+    color:violet; 
+}
+
+a, img {
+    /*alinear los elementos como la imagen y el link*/
+    display: block;
+}
+
+img {
+    /*Dar espacio entre la imagen y el link en este caso*/
+    margin: 50px 70px; /*50 es para entre los margenes y 70 para los costados*/
+}
+
+a{
+    /*Quitar el subrayado al link*/
+    text-decoration: none;
+
+    /*Cambiar color*/
+    color:darkgreen;
+}
+
+a:hover {
+     color: rosybrown;
+}
+
+img
+{
+    /*Centrar un elemeto en este caso la imagen*/
+    /*ANCHO*/
+    width: 50%;
+
+    /*Mantener la imagen centrada*/
+    margin: auto;
+}
